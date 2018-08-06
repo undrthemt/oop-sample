@@ -1,0 +1,46 @@
+.DS_Store
+
+cache/*
+!cache/index.html
+!cache/.htaccess
+
+logs/*
+!logs/index.html
+!logs/.htaccess
+logs/*.php
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Vim
+######################
+*.swp
+*.swo
+
+# Plugin: rocketeer
+######################
+.rocketeer/logs/*
+
+
+/.buildpath
+/.project
+/.settings
+/graph/png_delete_error.log
+
+.sass-cache/
+
+# Test
+######################
+data
+reports
+
+.idea/
+
