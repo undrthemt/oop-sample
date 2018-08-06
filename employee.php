@@ -64,7 +64,8 @@ class Employee
 		echo "Have a break!\n";
 	}
 
-	/*	 * 名前を言う
+	/**
+	 * 名前を言う
 	 * @access private 自分自身のクラスでだけ使える
 	 */
 	private function sayMyName()
